@@ -6,8 +6,8 @@ public class Polinomio{
 	
 		private int grado ;
 		private double [] coeficientes;
-		//La p o s i c i o n 0 d e l a r r e g l o de c o e f i c i e n t e s c o n t i e n e e l c o e f i c i e n t e de grado n y l a
-		//p o s i c i o n n c o n t i e n e a l term ino i n d e p e n d i e n t e .
+		// La posicion 0 del arreglo de coeficientes contiene el coeficiente del grado n
+		// y la posicion n tiene el termino independiente
 		public Polinomio(int grado){
 		this.grado=grado;
 		this.coeficientes=new double [grado+1];
